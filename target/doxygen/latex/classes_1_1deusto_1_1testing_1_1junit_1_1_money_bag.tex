@@ -1,0 +1,346 @@
+\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{}\section{es.\+deusto.\+testing.\+junit.\+Money\+Bag Class Reference}
+\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}\index{es.\+deusto.\+testing.\+junit.\+Money\+Bag@{es.\+deusto.\+testing.\+junit.\+Money\+Bag}}
+
+
+Inheritance diagram for es.\+deusto.\+testing.\+junit.\+Money\+Bag\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for es.\+deusto.\+testing.\+junit.\+Money\+Bag\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab3be83ff12fa6d19b67b669194120d00}{add} (\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} m)
+\item 
+\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a06ecedbf53ba09d34276fe177e3169bc}{add\+Money} (\hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money}{Money} m)
+\item 
+\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab329e6a2811b83a2b1670b79be92249d}{add\+Money\+Bag} (\hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} s)
+\item 
+boolean \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a80926d10c9619bd2ad84eabe52ca03bb}{equals} (Object an\+Object)
+\item 
+int \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ae2c0d290a37a617f0a07134bf95162eb}{hash\+Code} ()
+\item 
+boolean \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abebc5bc39c3343cb3c4e5fb291fd5893}{is\+Zero} ()
+\item 
+\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_aa20ce4cc70c2ba0bc9a5ccb96635d506}{multiply} (int factor)
+\item 
+\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abf06bf97e548f95038756608fe0c8351}{negate} ()
+\item 
+\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a7f1803fe267edca895cdf752b5f46560}{subtract} (\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} m)
+\item 
+String \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a85b49bdc3ff191abdaa1ad1a065ec5f1}{to\+String} ()
+\item 
+void \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ac8a5877b35b12939ce14543872ed18af}{append\+To} (\hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} m)
+\begin{DoxyCompactList}\small\item\em Brief test for \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ac8a5877b35b12939ce14543872ed18af}{append\+To()} added May 12, 2014. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a8d2d54a342d2de2b75530600123efc9a}{create} (\hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} m1, \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money}{I\+Money} m2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} defers exchange rate conversions. For example adding 12 Swiss Francs to 14 US Dollars is represented as a bag containing the two \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money}{Money} objects associated to 12 C\+HF and 14 U\+SD. Adding another 10 Swiss francs gives a \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} with 22 C\+HF and 14 U\+SD. Due to the deferred exchange rate conversion we can later value a \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} with different exchange rates.
+
+A \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} is represented as a list of \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money}{Money} objects and provides different constructors to create a \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag}. 
+
+Definition at line 20 of file Money\+Bag.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!add@{add}}
+\index{add@{add}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{add(\+I\+Money m)}{add(IMoney m)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+add (
+\begin{DoxyParamCaption}
+\item[{{\bf I\+Money}}]{m}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab3be83ff12fa6d19b67b669194120d00}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab3be83ff12fa6d19b67b669194120d00}
+Adds a money to this money. 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_a7f3ac1ced239e64294706155c569b8de}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 30 of file Money\+Bag.\+java.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab3be83ff12fa6d19b67b669194120d00_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab3be83ff12fa6d19b67b669194120d00_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!add\+Money@{add\+Money}}
+\index{add\+Money@{add\+Money}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{add\+Money(\+Money m)}{addMoney(Money m)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+add\+Money (
+\begin{DoxyParamCaption}
+\item[{{\bf Money}}]{m}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a06ecedbf53ba09d34276fe177e3169bc}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a06ecedbf53ba09d34276fe177e3169bc}
+Adds a simple \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money}{Money} to this money. This is a helper method for implementing double dispatch 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_aab8d4be667a542a8aa1380eb2b6e4257}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 34 of file Money\+Bag.\+java.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a06ecedbf53ba09d34276fe177e3169bc_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a06ecedbf53ba09d34276fe177e3169bc_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!add\+Money\+Bag@{add\+Money\+Bag}}
+\index{add\+Money\+Bag@{add\+Money\+Bag}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{add\+Money\+Bag(\+Money\+Bag s)}{addMoneyBag(MoneyBag s)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+add\+Money\+Bag (
+\begin{DoxyParamCaption}
+\item[{{\bf Money\+Bag}}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab329e6a2811b83a2b1670b79be92249d}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab329e6a2811b83a2b1670b79be92249d}
+Adds a \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} to this money. This is a helper method for implementing double dispatch 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_ac47c8940f0565bd9eda16730170bc9f7}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 38 of file Money\+Bag.\+java.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ab329e6a2811b83a2b1670b79be92249d_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!append\+To@{append\+To}}
+\index{append\+To@{append\+To}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{append\+To(\+Money\+Bag m)}{appendTo(MoneyBag m)}}]{\setlength{\rightskip}{0pt plus 5cm}void es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+append\+To (
+\begin{DoxyParamCaption}
+\item[{{\bf Money\+Bag}}]{m}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ac8a5877b35b12939ce14543872ed18af}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ac8a5877b35b12939ce14543872ed18af}
+
+
+Brief test for \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ac8a5877b35b12939ce14543872ed18af}{append\+To()} added May 12, 2014. 
+
+Append this to a \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag}{Money\+Bag} m. \hyperlink{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ac8a5877b35b12939ce14543872ed18af}{append\+To()} needs to be public because it is used polymorphically, but it should not be used by clients because it modifies the argument m. 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_ae45bc758e69a0017f083f11d050c53cb}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 142 of file Money\+Bag.\+java.
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!create@{create}}
+\index{create@{create}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{create(\+I\+Money m1, I\+Money m2)}{create(IMoney m1, IMoney m2)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+create (
+\begin{DoxyParamCaption}
+\item[{{\bf I\+Money}}]{m1, }
+\item[{{\bf I\+Money}}]{m2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a8d2d54a342d2de2b75530600123efc9a}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a8d2d54a342d2de2b75530600123efc9a}
+
+
+Definition at line 23 of file Money\+Bag.\+java.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a8d2d54a342d2de2b75530600123efc9a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a8d2d54a342d2de2b75530600123efc9a_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!equals@{equals}}
+\index{equals@{equals}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{equals(\+Object an\+Object)}{equals(Object anObject)}}]{\setlength{\rightskip}{0pt plus 5cm}boolean es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{an\+Object}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a80926d10c9619bd2ad84eabe52ca03bb}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a80926d10c9619bd2ad84eabe52ca03bb}
+
+
+Definition at line 63 of file Money\+Bag.\+java.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a80926d10c9619bd2ad84eabe52ca03bb_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{hash\+Code()}{hashCode()}}]{\setlength{\rightskip}{0pt plus 5cm}int es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+hash\+Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ae2c0d290a37a617f0a07134bf95162eb}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_ae2c0d290a37a617f0a07134bf95162eb}
+
+
+Definition at line 96 of file Money\+Bag.\+java.
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!is\+Zero@{is\+Zero}}
+\index{is\+Zero@{is\+Zero}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{is\+Zero()}{isZero()}}]{\setlength{\rightskip}{0pt plus 5cm}boolean es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+is\+Zero (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abebc5bc39c3343cb3c4e5fb291fd5893}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abebc5bc39c3343cb3c4e5fb291fd5893}
+Tests whether this money is zero 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_a166c39b6f931e49769580a04f8c73500}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 103 of file Money\+Bag.\+java.
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abebc5bc39c3343cb3c4e5fb291fd5893_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!multiply@{multiply}}
+\index{multiply@{multiply}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{multiply(int factor)}{multiply(int factor)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+multiply (
+\begin{DoxyParamCaption}
+\item[{int}]{factor}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_aa20ce4cc70c2ba0bc9a5ccb96635d506}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_aa20ce4cc70c2ba0bc9a5ccb96635d506}
+Multiplies a money by the given factor. 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_a09154f9713133d4734f72d6a20081209}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 107 of file Money\+Bag.\+java.
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!negate@{negate}}
+\index{negate@{negate}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{negate()}{negate()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+negate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abf06bf97e548f95038756608fe0c8351}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_abf06bf97e548f95038756608fe0c8351}
+Negates this money. 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_a741967d7aa89055b6873619303b11385}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 115 of file Money\+Bag.\+java.
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!subtract@{subtract}}
+\index{subtract@{subtract}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{subtract(\+I\+Money m)}{subtract(IMoney m)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\+Money} es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+subtract (
+\begin{DoxyParamCaption}
+\item[{{\bf I\+Money}}]{m}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a7f1803fe267edca895cdf752b5f46560}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a7f1803fe267edca895cdf752b5f46560}
+Subtracts a money from this money. 
+
+Implements \hyperlink{interfacees_1_1deusto_1_1testing_1_1junit_1_1_i_money_a1fb4981aa759e3fe0679654bec7a8b61}{es.\+deusto.\+testing.\+junit.\+I\+Money}.
+
+
+
+Definition at line 128 of file Money\+Bag.\+java.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a7f1803fe267edca895cdf752b5f46560_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!es\+::deusto\+::testing\+::junit\+::\+Money\+Bag@{es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}}
+\subsubsection[{\texorpdfstring{to\+String()}{toString()}}]{\setlength{\rightskip}{0pt plus 5cm}String es.\+deusto.\+testing.\+junit.\+Money\+Bag.\+to\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a85b49bdc3ff191abdaa1ad1a065ec5f1}{}\label{classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag_a85b49bdc3ff191abdaa1ad1a065ec5f1}
+
+
+Definition at line 133 of file Money\+Bag.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/es/deusto/testing/junit/\hyperlink{_money_bag_8java}{Money\+Bag.\+java}\end{DoxyCompactItemize}

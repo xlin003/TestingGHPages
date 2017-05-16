@@ -1,0 +1,161 @@
+\begin{theindex}
+
+  \item {add}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{12}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{16}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{24}
+  \item {add\+Money}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{12}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{17}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{24}
+  \item {add\+Money\+Bag}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{12}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{17}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{25}
+  \item {amount}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{17}
+  \item {append\+To}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{12}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{18}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{25}
+
+  \indexspace
+
+  \item {create}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{25}
+  \item {currency}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {equals}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{19}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{26}
+  \item {es}, \hyperpage{9}
+  \item {es.\+deusto}, \hyperpage{9}
+  \item {es.\+deusto.\+testing}, \hyperpage{9}
+  \item {es.\+deusto.\+testing.\+junit}, \hyperpage{9}
+  \item {es.\+deusto.\+testing.\+junit.\+I\+Money}, \hyperpage{11}
+  \item {es.\+deusto.\+testing.\+junit.\+Money}, \hyperpage{14}
+  \item {es.\+deusto.\+testing.\+junit.\+Money\+Bag}, \hyperpage{22}
+  \item {es\+::deusto\+::testing\+::junit\+::\+I\+Money}
+    \subitem {add}, \hyperpage{12}
+    \subitem {add\+Money}, \hyperpage{12}
+    \subitem {add\+Money\+Bag}, \hyperpage{12}
+    \subitem {append\+To}, \hyperpage{12}
+    \subitem {is\+Zero}, \hyperpage{13}
+    \subitem {multiply}, \hyperpage{13}
+    \subitem {negate}, \hyperpage{13}
+    \subitem {subtract}, \hyperpage{13}
+  \item {es\+::deusto\+::testing\+::junit\+::\+Money}
+    \subitem {add}, \hyperpage{16}
+    \subitem {add\+Money}, \hyperpage{17}
+    \subitem {add\+Money\+Bag}, \hyperpage{17}
+    \subitem {amount}, \hyperpage{17}
+    \subitem {append\+To}, \hyperpage{18}
+    \subitem {currency}, \hyperpage{18}
+    \subitem {equals}, \hyperpage{19}
+    \subitem {hash\+Code}, \hyperpage{19}
+    \subitem {is\+Zero}, \hyperpage{19}
+    \subitem {Money}, \hyperpage{15}
+    \subitem {multiply}, \hyperpage{20}
+    \subitem {negate}, \hyperpage{20}
+    \subitem {subtract}, \hyperpage{21}
+    \subitem {to\+String}, \hyperpage{21}
+  \item {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}
+    \subitem {add}, \hyperpage{24}
+    \subitem {add\+Money}, \hyperpage{24}
+    \subitem {add\+Money\+Bag}, \hyperpage{25}
+    \subitem {append\+To}, \hyperpage{25}
+    \subitem {create}, \hyperpage{25}
+    \subitem {equals}, \hyperpage{26}
+    \subitem {hash\+Code}, \hyperpage{26}
+    \subitem {is\+Zero}, \hyperpage{27}
+    \subitem {multiply}, \hyperpage{27}
+    \subitem {negate}, \hyperpage{27}
+    \subitem {subtract}, \hyperpage{27}
+    \subitem {to\+String}, \hyperpage{28}
+
+  \indexspace
+
+  \item {hash\+Code}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{19}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {is\+Zero}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{13}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{19}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {Money}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{15}
+  \item {multiply}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{13}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{20}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {negate}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{13}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{20}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {src/main/java/es/deusto/testing/junit/\+I\+Money.\+java}, 
+		\hyperpage{29}
+  \item {src/main/java/es/deusto/testing/junit/\+Money.\+java}, 
+		\hyperpage{29}
+  \item {src/main/java/es/deusto/testing/junit/\+Money\+Bag.\+java}, 
+		\hyperpage{30}
+  \item {subtract}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+I\+Money}, 
+		\hyperpage{13}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{21}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {to\+String}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money}, 
+		\hyperpage{21}
+    \subitem {es\+::deusto\+::testing\+::junit\+::\+Money\+Bag}, 
+		\hyperpage{28}
+
+\end{theindex}

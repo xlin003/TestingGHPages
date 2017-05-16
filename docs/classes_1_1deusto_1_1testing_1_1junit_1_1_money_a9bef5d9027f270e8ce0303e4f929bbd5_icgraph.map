@@ -1,0 +1,11 @@
+<map id="es.deusto.testing.junit.Money.amount" name="es.deusto.testing.junit.Money.amount">
+<area shape="rect" id="node2" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#a6f1749eb364c59ed038f79cf8965e3bc" title="es.deusto.testing.junit.\lMoney.Money" alt="" coords="208,176,363,217"/>
+<area shape="rect" id="node3" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#a223a447d5daf23b5e9cc0f551b72e328" title="es.deusto.testing.junit.\lMoney.addMoney" alt="" coords="419,137,573,179"/>
+<area shape="rect" id="node4" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#a2356df38b8e9ecdd969bab11d6dd301b" title="es.deusto.testing.junit.\lMoney.equals" alt="" coords="419,71,573,112"/>
+<area shape="rect" id="node5" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#a02c7d4e9013710f70d1d46e9c9ebae88" title="es.deusto.testing.junit.\lMoney.multiply" alt="" coords="419,207,573,248"/>
+<area shape="rect" id="node6" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#ae5f0bc3ea87f1fd55d6478653b8f2e36" title="es.deusto.testing.junit.\lMoney.negate" alt="" coords="419,280,573,321"/>
+<area shape="rect" id="node7" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#a797658a03260b535e9a36ebbcc3b19c9" title="es.deusto.testing.junit.\lMoney.isZero" alt="" coords="208,8,363,49"/>
+<area shape="rect" id="node9" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#af9e655069123757bea0efecc4efcd638" title="es.deusto.testing.junit.\lMoney.toString" alt="" coords="208,344,363,385"/>
+<area shape="rect" id="node10" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag.html#a80926d10c9619bd2ad84eabe52ca03bb" title="es.deusto.testing.junit.\lMoneyBag.equals" alt="" coords="208,409,363,451"/>
+<area shape="rect" id="node8" href="$classes_1_1deusto_1_1testing_1_1junit_1_1_money_bag.html#ab329e6a2811b83a2b1670b79be92249d" title="es.deusto.testing.junit.\lMoneyBag.addMoneyBag" alt="" coords="411,5,581,47"/>
+</map>
